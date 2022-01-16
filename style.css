@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.back{
+    background-color: rgba(3, 118, 226, 0.406);
+}
+.wave-1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0px;
+    left: 0;
+}
+.wave-2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+
+.background-img{
+    height: 100vh;
+    background-size: cover;
+    background-position:left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Profile{
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Profile img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-images{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.profile-images-back{
+    position: absolute;
+    margin-top:75px;
+    margin-left: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
